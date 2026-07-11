@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 80px 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2e2622;
+  align-items: center;
+  padding: 18px 8%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: #fbf6ef;
+}
+.coffee-color {
+  color: #e9b44c;
+}
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./image/bg-image.avif");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  color: white;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+}
+.header-content button {
+  width: 20%;
+  margin-left: 40%;
+  padding: 10px 0;
+  background-color: #e9b44c;
+  border-radius: 18px;
+}
+
+.our-story {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.our-story div img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.our-story .right-side {
+  display: grid;
+  align-items: center;
+}
+
+.right-side div h2 {
+  padding-bottom: 12px;
+}
+.right-side div p {
+  padding-bottom: 12px;
+}
+.right-side div button {
+  padding: 8px 12px;
+  border-radius: 18px;
+  background-color: #e9b44c;
+  border: none;
+}
+
+.popular-bg {
+  background-color: #f1e7d8;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 70px;
+}
+
+.card-container .card {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 25px;
+  border-radius: 12px;
+}
+.Menu {
+  text-align: center;
+}
+.card img {
+  padding-bottom: 12px;
+}
+.card h1 {
+  padding-bottom: 12px;
+}
+.card p {
+  padding-bottom: 12px;
+}
+.top {
+  text-align: center;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+td, th {
+  border: 2px solid #2E2622;
+  padding: 8px 5px ;
+}
+thead {
+  background-color: #2E2622;
+}
+th {
+  color: #E9B44C;
+}
