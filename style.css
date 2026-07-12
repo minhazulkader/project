@@ -14,7 +14,7 @@ nav {
   align-items: center;
   padding: 18px 8%;
 }
-ul {
+nav ul {
   display: flex;
   list-style: none;
   gap: 20px;
@@ -270,13 +270,12 @@ th {
 }
 
 @media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    gap: 40px;
+  section {
+    padding: 40px 20px;
   }
 
-  .footer-bottom {
+  nav {
     flex-direction: column;
-    text-align: center;
+    gap: 20px;
   }
 }
