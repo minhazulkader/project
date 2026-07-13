@@ -279,3 +279,7 @@ th {
     gap: 20px;
   }
 }
+
+button{
+  cursor: pointer;
+}
